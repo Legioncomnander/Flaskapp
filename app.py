@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import pandas as pd
 import pickle
 import joblib
-import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
